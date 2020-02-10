@@ -1,0 +1,89 @@
+html{
+  background-color:rgb(80, 80, 80) ;
+  
+}
+
+.background {
+ background-color: transparent;
+ width: 100%;
+ display: flex;
+ flex-Flow: column wrap;
+ position:absolute ;
+ align-items:center;
+ justify-Self: center;
+}
+
+.accountbox {
+  background-color:white;
+  border: 2px solid black;
+  min-width: 70vh;
+  max-width:150vh ;
+  min-height: 20vh;
+  margin: 15px;
+  
+}
+
+.navbar{
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  position: sticky;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.links{
+  color: rgb(255, 180, 41);
+  text-decoration: underline;
+  list-style: disc;
+}
+
+
+.accountinfo{
+  background-color: rgb(255, 180, 41);
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: fit-content;
+  width: 100%;
+}
+
+.profileimage {
+  position: static;
+  width: 15vh;
+  height: 15vh;
+  border-radius: 50%;
+  border: 2px solid black;
+
+}
+
+.username{
+  font-weight: 500;
+}
+
+#Spinner{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ z-index: 99;
+}
+
+.userimages{
+  background-color: transparent;
+  border: 2px solid black;
+  width:30% ;
+  height:auto;
+  margin: 10px;
+   
+}
+
+Button{
+  margin:10px;
+  border: 2px solid black;
+}
